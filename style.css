@@ -1,0 +1,63 @@
+
+/* Modernized Library Management System Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #dfe6e9);
+    color: #2d3436;
+}
+
+.container {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #0984e3;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0984e3;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #74b9ff;
+}
+
+a {
+    text-decoration: none;
+    color: #0984e3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#statusMessage {
+    margin-top: 20px;
+    font-weight: bold;
+}
