@@ -1,4 +1,4 @@
 # Library-Management-
 
-admin user
-pass:admin123
+admin user:admin
+password:admin123
